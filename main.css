@@ -1,0 +1,40 @@
+:root {
+    --color-de-fondo : #f0f0f0;
+    --color-principal: #E07A5F;
+    --color-segundo: #3D405B;
+    --color-tercero: #81B29A;
+    --color-cuarto: #F2CC8F;
+    --color-quinto: #F4F1DE;
+}
+
+* {
+    box-sizing: border-box;
+    /* background-color: var(--color-de-fondo) ; */
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+body {
+   
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: visible;
+  
+  }
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--color-segundo);
+    background-color:transparent;
+}
+
+textarea {
+    outline: none;
+}
+
+

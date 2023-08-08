@@ -1,0 +1,33 @@
+.title__div {
+    display:flex;
+    flex-direction: row-reverse;    
+    background: var(--color-quinto);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 6rem;
+}
+.title__container {
+    background-color: transparent !important;   
+}
+
+
+@media (min-width: 425px) and (max-width:1000px) {
+    .title__div {
+        padding: 1rem 3rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .title__div {
+        flex-direction:column;
+        padding: 2rem 2rem;
+        /* padding: 1rem 21rem;  */
+        /* justify-content: start;        */
+    }
+    .title__container {
+        padding:0rem 1rem;
+        
+    }
+
+}
+

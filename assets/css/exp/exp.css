@@ -1,0 +1,19 @@
+.experience {
+    padding: 2rem;
+    background-color: var(--color-tercero);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.experience__title {
+     font-size:2rem;
+     margin-bottom: 2rem;
+     background-color: var(--color-tercero);
+     color: var(--color-segundo);
+
+}
+.experience__section__title {
+    color: var(--color-segundo);
+}

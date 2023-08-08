@@ -1,0 +1,38 @@
+.formcontato {
+    background: rgb(224,122,95);
+background: linear-gradient(180deg, rgba(224,122,95,1) 0%, rgba(129,178,154,1) 100%);
+    padding: 2rem;;
+}
+.formcontato__contacto {
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;;
+    /* background-color: var(--color-tercero); */
+}
+
+/* .formcontato__text {
+    background-color: var(--color-tercero);
+}
+
+.formcontato__title {
+    background-color: var(--color-tercero);
+}
+
+.formcontato__subtext {
+    background-color: var(--color-tercero);
+
+} */
+
+/* .formcontato__form {
+    background-color: var(--color-tercero);
+} */
+@media (max-width: 768px) {
+    .formcontato {
+        padding: 2rem;
+    }
+
+    .formcontato__contacto {
+        padding-top: 0;
+
+    }
+}

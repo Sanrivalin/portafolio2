@@ -1,0 +1,27 @@
+.academic {
+    padding: 2rem;
+    background: rgb(129,178,154);
+    background: linear-gradient(180deg, rgba(129,178,154,1) 0%, rgba(242,204,143,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.academic__title {
+     font-size:2rem;
+     margin-bottom: 2rem;
+     /* background-color: var(--color-tercero); */
+     color: var(--color-segundo);
+}
+
+
+
+@media (max-width: 425px) {
+    .academic {
+        flex-wrap: wrap;
+
+
+    }
+
+}

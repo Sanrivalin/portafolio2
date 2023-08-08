@@ -1,0 +1,83 @@
+.experiencie__box {
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    margin: 1.5rem 0;
+    background: var(--color-tercero);  
+}
+
+.experiencie__box:nth-child(3), .experiencie__box:nth-child(5) {
+    flex-direction: row-reverse;
+}
+
+.experience__img {
+    width: 70%; 
+
+}
+
+.experience__title {
+    font-size:1.5rem;
+}
+
+.experience__text {
+    font-weight: normal;
+    font-size:1rem;
+    background: var(--color-tercero); 
+}
+
+.experience__description {
+    background: var(--color-tercero); 
+    
+}
+
+.experience__repo a {
+    background: var(--color-tercero); 
+
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: var(--color-tercero); 
+
+}
+
+.experiencia__botao--repo {
+    padding: .8rem;
+    background-color:var( --color-cuarto);
+    color: var( --color-segundo);
+    border: 1.5px solid var( --color-segundo);
+    cursor: pointer;
+}
+.experiencia__botao--repo:hover {    
+    background-color:var( --color-segundo);
+    color: var( --color-cuarto);    
+}
+
+.experience__botao--demo {
+    padding: .8rem;
+    background-color:var( --color-segundo);
+    color: var( --color-cuarto);
+    border: 1.5px solid var( --color-cuarto);
+    cursor: pointer;
+}
+
+.experience__botao--demo:hover {    
+    background-color:var( --color-cuarto);
+    color: var( --color-segundo);    
+}
+
+@media (max-width: 768px) {
+    .experiencie__box{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .experiencie__box:nth-child(3), .experiencie__box:nth-child(5) {
+        flex-direction: column;
+    }
+    .experience__img {
+        width: 100%;
+    }
+}
+

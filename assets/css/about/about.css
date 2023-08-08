@@ -1,0 +1,28 @@
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 6rem;
+    background: var(--color-quinto);
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 3rem 5rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 1000px) {
+    .about {
+        padding: 2rem 3rem;
+
+    }
+    
+
+}
+
+@media (max-width: 425px) {
+    .about {
+        padding: 3rem 2rem;
+    }
+}

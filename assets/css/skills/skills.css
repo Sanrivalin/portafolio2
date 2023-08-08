@@ -1,0 +1,25 @@
+.skills {
+    padding: 2rem;
+    background-color: var(--color-tercero);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.skills__title {
+     font-size:2rem;
+     margin-bottom: 1rem;
+     background-color: var(--color-tercero);
+     color: var(--color-segundo);
+
+}
+
+@media (min-width: 425px) {
+    .skills {
+        flex-wrap: wrap;
+
+
+    }
+
+}
