@@ -23,10 +23,33 @@
   /* padding: 1rem; */
 }
 
+.input {
+  position: relative;
+}
+
 .formcontato__input,
 .formcontato__textarea {
   padding: 1rem;
+  width: 100%;
 }
+
+.validar-estado {
+  position: absolute;
+  font-size: 1rem;
+  right: 0;
+  color: var(--color-principal);
+  opacity: 0;
+}
+
+.incorrecto .validar-estado {
+  opacity: 1;
+}
+
+.correcto .validar-estado {
+  opacity: 1;
+  color: var(--color-tercero)
+}
+
 .formcontato__textarea {
   resize: none;
 }

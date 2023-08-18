@@ -23,6 +23,7 @@
     font-weight: normal;
     font-size:1rem;
     background: var(--color-tercero); 
+    color: var(--color-segundo);
 }
 
 .experience__description {

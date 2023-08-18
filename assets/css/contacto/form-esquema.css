@@ -10,7 +10,7 @@
     display: block;
 }
 
-.formcontato--esquerda::before {
+/* .formcontato--esquerda::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -20,7 +20,7 @@
     border: 2px solid var(--color-principal);
     border-radius: 10px;
     box-shadow: 0 0 50px var(--color-principal), 0 0 20px var(--color-principal), 0 0 30px var(--color-principal), 0 0 40px var(--color-principal), 0 0 50px var(--color-principal), 0 0 60px var(--color-principal), 0 0 70px var(--color-principal);
-}
+} */
 @media (max-width: 768px) {
     .formcontato--esquerda {
         display: none;

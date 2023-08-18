@@ -8,7 +8,7 @@
 @media (max-width: 768px){
     .title__profile {
         height: 8rem;
-        width: 10rem;        
+        width: 6rem;        
     }
 }
 
@@ -16,7 +16,9 @@
     .title__profile {
         width:7rem;
         margin-bottom:1rem;
-        margin-right: auto;
+        margin-right: 9rem;
+        
+          right:8%;
     }
 
 }
